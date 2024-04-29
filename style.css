@@ -1,0 +1,105 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.logo {
+    color: #fff;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #666;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.page {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page h1 {
+    margin-bottom: 10px;
+}
+
+.page p {
+    margin-bottom: 10px;
+}
+
+.page img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.page ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.page ul li {
+    margin-bottom: 5px;
+}
+
+.back-button {
+    display: block;
+    text-align: center;
+    margin-top: 20px; /* Sesuaikan dengan jarak yang diinginkan */
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
